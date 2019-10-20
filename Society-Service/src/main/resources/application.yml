@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: society-service
+server:
+  servlet:
+    context-path: /society-service
+  port: 8091
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8090/eurekaservice/eureka/
+    

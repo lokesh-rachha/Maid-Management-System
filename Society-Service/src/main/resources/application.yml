@@ -1,9 +1,6 @@
-spring:
-  application:
-    name: society-service
 server:
   servlet:
-    context-path: /society-service
+    context-path: /society
   port: 8091
 eureka:
   client:

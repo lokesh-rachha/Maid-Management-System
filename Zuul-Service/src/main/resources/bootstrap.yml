@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: zuul-service
+zuul:
+  routes:
+    society:
+      path: /society/**
+      service-id: society-service  
+      strip-prefix: false

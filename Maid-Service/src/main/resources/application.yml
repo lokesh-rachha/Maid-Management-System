@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /maid
+  port: 8092
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8090/eurekaservice/eureka/
+    

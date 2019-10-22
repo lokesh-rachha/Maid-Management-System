@@ -7,3 +7,7 @@ zuul:
       path: /society/**
       service-id: society-service  
       strip-prefix: false
+    maid:
+      path: /maid/**
+      service-id: maid-service  
+      strip-prefix: false
